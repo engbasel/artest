@@ -1,4 +1,4 @@
-# Changelog - AR Car Showroom
+# Changelog - AR  Showroom
 
 ## Version 1.0.0 - Local 3D Model Support (2025-12-04)
 

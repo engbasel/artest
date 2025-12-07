@@ -1,4 +1,4 @@
-# Usage Examples - AR Car Showroom
+# Usage Examples - AR  Showroom
 
 ## 📖 Table of Contents
 1. [Basic Usage](#basic-usage)
@@ -15,7 +15,7 @@
 **Scenario**: You have a car model file `my_car.glb` on your device.
 
 **Steps**:
-1. Open the AR Car Showroom app
+1. Open the AR  Showroom app
 2. On the home screen, locate the "Selected Model" card
 3. Tap the **"Choose 3D Model"** button
 4. Navigate to your file location

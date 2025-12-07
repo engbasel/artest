@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'screens/home_screen.dart';
+import 'screens/splash_screen.dart';
 import 'viewmodels/ar_viewmodel.dart';
 
 void main() {
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [ChangeNotifierProvider(create: (_) => ARViewModel())],
       child: MaterialApp(
-        title: 'AR Car Showroom',
+        title: 'AR  Showroom',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           useMaterial3: true,
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
           ),
           scaffoldBackgroundColor: const Color(0xFF1a1a2e),
         ),
-        home: const HomeScreen(),
+        home: const SplashScreen(),
       ),
     );
   }

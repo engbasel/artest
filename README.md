@@ -1,4 +1,4 @@
-# AR Car Showroom - Local 3D Model Support
+# AR  Showroom - Local 3D Model Support
 
 ## 🎯 Overview
 This AR application now supports loading custom 3D models from your device storage, allowing you to visualize any 3D model in augmented reality with color customization.

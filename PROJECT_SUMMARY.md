@@ -1,8 +1,8 @@
-# AR Car Showroom - Project Summary
+# AR  Showroom - Project Summary
 
 ## 🎯 Project Overview
 
-**AR Car Showroom** is a complete Flutter application that demonstrates Augmented Reality capabilities for visualizing and customizing a 3D car model in real-world environments. Built with clean MVVM architecture and modern Flutter best practices.
+**AR  Showroom** is a complete Flutter application that demonstrates Augmented Reality capabilities for visualizing and customizing a 3D car model in real-world environments. Built with clean MVVM architecture and modern Flutter best practices.
 
 ## ✨ Key Features Implemented
 
@@ -313,7 +313,7 @@ All features implemented:
 
 ## 🎉 Conclusion
 
-The AR Car Showroom is a production-ready Flutter application showcasing:
+The AR  Showroom is a production-ready Flutter application showcasing:
 - Advanced AR capabilities
 - Clean architecture
 - Modern UI/UX

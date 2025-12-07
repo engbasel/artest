@@ -1,4 +1,4 @@
-# Quick Start Guide - AR Car Showroom
+# Quick Start Guide - AR  Showroom
 
 ## 🚀 Quick Setup
 

@@ -33,7 +33,7 @@ class HomeScreen extends StatelessWidget {
                   // Header
                   const SizedBox(height: 40),
                   const Text(
-                    'AR Car',
+                    'AR ',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 48,
@@ -52,7 +52,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 16),
                   Text(
-                    'Experience your dream car in augmented reality',
+                    'Experience your AR  in augmented reality',
                     style: TextStyle(
                       color: Colors.white.withOpacity(0.8),
                       fontSize: 16,
@@ -231,7 +231,7 @@ class HomeScreen extends StatelessWidget {
                               ),
                               const SizedBox(width: 12),
                               const Text(
-                                'الموديلات المحفوظة',
+                                'Saved Models',
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -240,7 +240,7 @@ class HomeScreen extends StatelessWidget {
                               ),
                               const Spacer(),
                               Text(
-                                '${viewModel.savedModels.length} موديل',
+                                '${viewModel.savedModels.length} models',
                                 style: TextStyle(
                                   color: Colors.white.withOpacity(0.6),
                                   fontSize: 14,
@@ -332,7 +332,7 @@ class HomeScreen extends StatelessWidget {
                                                   BorderRadius.circular(8),
                                             ),
                                             child: const Text(
-                                              'محدد',
+                                              'Selected',
                                               style: TextStyle(
                                                 color: Colors.white,
                                                 fontSize: 10,
@@ -350,13 +350,13 @@ class HomeScreen extends StatelessWidget {
                                                   0xFF1a1a2e,
                                                 ),
                                                 title: const Text(
-                                                  'حذف الموديل',
+                                                  'Delete Model',
                                                   style: TextStyle(
                                                     color: Colors.white,
                                                   ),
                                                 ),
                                                 content: Text(
-                                                  'هل تريد حذف "${model.displayName}"؟',
+                                                  'Are you sure you want to delete "${model.displayName}"?',
                                                   style: TextStyle(
                                                     color: Colors.white
                                                         .withOpacity(0.8),
@@ -369,7 +369,7 @@ class HomeScreen extends StatelessWidget {
                                                           context,
                                                           false,
                                                         ),
-                                                    child: const Text('إلغاء'),
+                                                    child: const Text('Cancel'),
                                                   ),
                                                   TextButton(
                                                     onPressed: () =>
@@ -378,7 +378,7 @@ class HomeScreen extends StatelessWidget {
                                                           true,
                                                         ),
                                                     child: const Text(
-                                                      'حذف',
+                                                      'Delete',
                                                       style: TextStyle(
                                                         color: Colors.red,
                                                       ),
@@ -398,7 +398,7 @@ class HomeScreen extends StatelessWidget {
                                                 ).showSnackBar(
                                                   const SnackBar(
                                                     content: Text(
-                                                      'تم حذف الموديل',
+                                                      'Model deleted successfully',
                                                     ),
                                                     backgroundColor: Color(
                                                       0xFF53a8e2,
@@ -423,7 +423,7 @@ class HomeScreen extends StatelessWidget {
                                       ).showSnackBar(
                                         SnackBar(
                                           content: Text(
-                                            'تم اختيار: ${model.displayName}',
+                                            'Selected: ${model.displayName}',
                                           ),
                                           backgroundColor: const Color(
                                             0xFF53a8e2,
@@ -491,7 +491,7 @@ class HomeScreen extends StatelessWidget {
                           const Icon(Icons.threed_rotation, size: 28),
                           const SizedBox(width: 12),
                           const Text(
-                            'عرض الموديل 3D',
+                            'View 3D Model',
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -532,7 +532,7 @@ class HomeScreen extends StatelessWidget {
                           const Icon(Icons.camera_alt, size: 24),
                           const SizedBox(width: 12),
                           const Text(
-                            'تجربة الواقع المعزز (AR)',
+                            'AR Experience',
                             style: TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.bold,

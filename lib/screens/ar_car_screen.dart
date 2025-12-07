@@ -244,7 +244,7 @@ class _ARCarScreenState extends State<ARCarScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'AR Car Preview',
+                      'AR  Preview',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 20,
@@ -252,7 +252,7 @@ class _ARCarScreenState extends State<ARCarScreen> {
                       ),
                     ),
                     Text(
-                      'Visualize your dream car',
+                      'Visualize your AR ',
                       style: TextStyle(color: Colors.white70, fontSize: 12),
                     ),
                   ],

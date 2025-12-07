@@ -1,8 +1,8 @@
-# Quick Setup Guide - AR Car Showroom
+# Quick Setup Guide - AR  Showroom
 
 ## ✅ What's Already Done
 
-Your AR Car Showroom is fully configured and ready to run! Here's what's been set up:
+Your AR  Showroom is fully configured and ready to run! Here's what's been set up:
 
 ### 📁 Project Structure
 ```
@@ -82,7 +82,7 @@ flutter run
 ### Step 1: Grant Permissions
 When you first launch the app, it will ask for camera permission:
 - **Tap "Allow"** when prompted
-- If you accidentally denied it, go to device Settings → Apps → AR Car Showroom → Permissions
+- If you accidentally denied it, go to device Settings → Apps → AR  Showroom → Permissions
 
 ### Step 2: Launch AR
 - Tap the **"Launch AR Experience"** button on the home screen
@@ -114,7 +114,7 @@ When you first launch the app, it will ask for camera permission:
 
 ### Issue: "Camera Permission Denied"
 **Solution:** 
-1. Go to Settings → Apps → AR Car Showroom → Permissions
+1. Go to Settings → Apps → AR  Showroom → Permissions
 2. Enable Camera
 3. Restart the app
 
@@ -243,7 +243,7 @@ position: vector.Vector3(0.0, -0.5, -1.5), // Adjust Z value
 
 ## ✨ You're All Set!
 
-Everything is configured and ready to go. Just run the app and enjoy your AR car showroom experience!
+Everything is configured and ready to go. Just run the app and enjoy your AR  showroom experience!
 
 ```bash
 flutter run
